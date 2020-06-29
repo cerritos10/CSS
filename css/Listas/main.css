@@ -1,0 +1,20 @@
+body {
+    background-color: #eee;
+}
+ul li { /* esto solo afecta de cierta forma a los li que etan dentro de lu como si li fuera hijo de lu */
+    list-style-type: circle; /*circulo sin relleno */    
+    border-bottom: solid 2px #ddd;
+    padding: 15px;
+}
+
+ul {
+    background-color: white;
+    border: solid 2px #ddd;
+    border-radius: 5px;
+    margin-right: 40px;
+    margin-left: 40px;
+    /* 
+    ELIMINAR CIRCULO DE LAS LISTAS:
+    list-style-type: none ; 
+    */
+}

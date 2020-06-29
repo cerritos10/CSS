@@ -1,0 +1,17 @@
+/*selectores */
+body{
+    background-color: #eeeeee;
+    color: #ff0000;
+}
+p{
+    color: blue;
+}
+/*ID*/
+#parrafo{
+    color: blueviolet;
+}
+/*CLASES*/
+.etiqueta{
+    color: #00aa00;
+    
+}

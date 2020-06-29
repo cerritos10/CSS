@@ -1,0 +1,14 @@
+body {
+    background-color: #eee;
+}
+
+#over { /*overflow es como acomodar en una "caja" un tecto que no cabe en esa caja */
+    width: 100px;
+    height: 100px;
+    overflow: scroll;
+    /* 
+        overflow: auto;= agrega scroll en los ejes x y y
+        overflow-y: scroll; = scroll solo en eje y
+        overflow-x: scroll;=scroll solo en eje x
+    */
+}

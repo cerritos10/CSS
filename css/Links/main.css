@@ -1,0 +1,29 @@
+body{
+    background-color: #eee;
+}
+a {
+    color: hotpink;
+    font-size: 40px;
+    background-color:greenyellow;
+    border: solid 2px rgb(85, 139, 4);
+    margin: 15px;
+    padding: 15px;
+    border-radius: 4px;
+}
+
+/* SELECTORES PARA LINKS */
+
+a:link { /* cuqando el lonk no ha sido visitado */
+    color: red;
+    text-decoration: none;
+}
+a:visited{ /* links visitados */
+    color: blue;
+}
+a:hover{/*cuando se coloca el color en cima*/
+    color:green;
+    text-decoration: underline;
+}
+a:active{/*cuando se da click al linkl */
+    color: black;
+}

@@ -1,0 +1,23 @@
+body{
+    background-color: #eee;
+}
+p {
+    font-family: "arial";
+    font-style: oblique;
+    font-size: 40px;/* muchas veces se usa esta sintaxis= 1.5em debido a que es el formato que ocupa el navegador*/
+    font-weight: bold; /* negrita  o se pueden ocupar numeros de 100 en 100 para el grosor del fuente aunque depende de la funte para el grosor que llega hasta 900*/
+    color: #222fff;
+    text-align: center; /*alinear texto*/
+    text-decoration: underline; /*subrayado */
+    text-indent: 20px; /* Sangria */
+    line-height: 1.7; /* espacio entre lneas */
+    word-spacing: 10px; /* espacio entre palabras */
+    text-shadow: 5px 2px 5px rgba(0, 0, 0, 0.4); /* sombra primer valor es a la derecha segunda hacia abajo y tercer difuminado */
+}
+
+a {
+    text-decoration: none; /* quita el subrayado del link */
+    text-transform: uppercase; /* pone las letras mayusculaas su opuesto es lowercase */
+    letter-spacing: 3px; /* easpaciado entre letras */
+    
+}

@@ -1,0 +1,16 @@
+body{
+    background-color: #eee;
+}
+.caja{
+    margin: 28px; /* hace cambios fuera del div */
+    padding: 12px; /* hace cambios dentro del div */
+    border-style: solid; /*en medio de margin y padding*/
+    border-width: 3px;
+    border-color: chartreuse;
+    border-top:6px solid red ;
+    background-color: #aaf;
+    border-radius: 8px;/*bordes redomdeados */
+    height: 100px; /* LARGO */
+    width: 100px; /*ANCHO */
+    color: #575;
+}
