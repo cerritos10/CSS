@@ -1,0 +1,17 @@
+body {
+    background-color: #eee;
+}
+
+p {
+    max-width: 350px;/*ancho maximo y es lo unicoque ocupaa la pantalla en cambio con width el ancho se mantiene */
+    background-color: red;
+    margin: auto;
+    position: relative;
+    /*
+    relative= permite mover el objeto pero en su mismo eje o posicion 
+    fixed=deja el contenido fijo en la pantalla
+    */
+    left: 15px;
+    top: 0px;
+    bottom: 0px;
+}

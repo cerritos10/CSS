@@ -1,0 +1,16 @@
+body {
+    background-color: #eee;
+}
+
+
+p {  /* se convierte el  bloque en iniline */
+    display: inline;
+}
+
+#invisible {
+    display: none;
+}
+
+#block {
+    display: block;
+}

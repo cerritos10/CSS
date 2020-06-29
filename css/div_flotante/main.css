@@ -1,0 +1,34 @@
+body{
+    background-color: #eee;
+}
+.caja{  
+    background-color: white;
+    border-style: solid; /*borde solido */
+    border-width: 1px;/* ancho del borde */
+    border-color: #ccc; /* color de borde */
+    border-radius: 2px; /* borde redondeado*/
+    border-top:solid 0px; /* brde superior con 0 pixeles */
+}
+.cabecera{
+    padding: 10px;
+}
+.contenido{
+    padding: 10px;
+    border-top: solid #eee;
+    border-bottom: solid #eee;
+}
+.botones{
+    padding: 10px;
+}
+#true{
+    background-color: blue;
+    color: white;
+    border:0px;
+    padding: 5px;
+}
+#false{
+    background-color: gray;
+    color: white;
+    border:0px;
+    padding: 5px;
+}

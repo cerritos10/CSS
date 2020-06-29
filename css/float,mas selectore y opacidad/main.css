@@ -1,0 +1,21 @@
+body {
+    background-color: #eee;
+}
+
+p{
+    margin-left: 100px;
+    text-align: justify;
+}
+
+img {
+    float: right;
+}
+
+img:hover {
+    opacity: 0.5;/*resive valor de 0 a 1*/
+
+}
+
+div p{
+    color: red;
+}
