@@ -1,0 +1,21 @@
+body {
+    background-color: #eee;
+}
+
+.fondo {
+    height: 400px;
+    background: #f00 url('https://placekitten.com/g/200/300') no-repeat right bottom fixed;
+
+    /* todo lo que se comenta abajo se puede realizar en una sola linea como arriba */
+
+    /*
+    background-color: #f00;
+    background-image: url('https://placekitten.com/g/200/300');
+    background-repeat: no-repeat; --> repeat-x para mostrara en eje x y pata eje y es repeat-y
+    background-position: right bottom;
+    background-attachment: fixed; -->fija la img como en los menus
+    */
+
+    /* background-size: cover; --> no se puede utilizar en una sola linea como arriba*/
+    background-size: cover;
+}
